@@ -14,6 +14,6 @@ pip3 install -U msgpack
 # setting for c-lang
 wget https://github.com/clangd/clangd/releases/download/10.0.0/clangd-linux-10.0.0.zip
 unzip clangd-linux-10.0.0.zip
-mkdir -p $HOME/.local/share/vim-lsp-settings
-mv clangd_10.0.0 $HOME/.local/share/vim-lsp-settings/clangd
+mkdir -p $HOME/.local/share/vim-lsp-settings/servers
+mv clangd_10.0.0 $HOME/.local/share/vim-lsp-settings/servers/clangd
 rm -rf clangd-linux-10.0.0.zip
