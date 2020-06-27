@@ -1,4 +1,8 @@
-sudo apt -y install python3 python3-venv python3-pip clang libclang-dev llvm npm neovim
+sudo apt -y install python3 python3-venv python3-pip clang libclang-dev llvm npm
+
+wget https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage
+chmod +x nvim.appimage
+sudo mv nvim.appimage /usr/bin/nvim
 
 sudo npm install -g tern
 sudo npm install -g neovim
