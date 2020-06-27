@@ -3,4 +3,4 @@ let g:lsp_settings = {
 \  'efm-langserver': {'disabled': v:false}
 \}
 
-let lsp_signature_help_enabled = 0
+let lsp_signature_help_enabled = 1
