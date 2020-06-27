@@ -49,3 +49,16 @@ repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
 repo = 'markonm/traces.vim'
+
+[[plugins]]
+repo = 'szw/vim-tags'
+
+[[plugins]]
+repo = 'vim-scripts/taglist.vim'
+hook_add = """
+    set tags = tags
+    let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+    let Tlist_Show_One_File = 1
+    let Tlist_Exit_OnlyWindow = 1
+    nnoremap <C-a> :Tlist<CR>
+"""
