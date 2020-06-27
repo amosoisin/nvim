@@ -43,3 +43,6 @@ repo = 'lighttiger2505/deoplete-vim-lsp'
 
 [[plugins]]
 repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
