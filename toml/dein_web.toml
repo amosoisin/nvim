@@ -1,0 +1,10 @@
+[[plugins]]
+repo = 'mattn/emmet-vim'
+on_ft = ['html', 'htmldjango']
+hook_add = '''
+    let g:user_emmet_settings = {
+    \ 'variables' : {
+    \   'lang': 'ja'
+    \ }
+    \ }
+'''

@@ -1,0 +1,42 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+merged = '0'
+ 
+[[plugins]]
+repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'gosukiwi/vim-atom-dark'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = '''
+    nnoremap <C-e> :NERDTreeToggle<CR>
+'''
+
+[[plugins]]
+repo = 'cohama/lexima.vim'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'
+
+[[plugins]]
+repo = 'mattn/vim-lsp-settings'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete-lsp.vim'
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = """
+    let g:deoplete#enable_at_startup = 1
+"""
+
+[[plugins]]
+repo = 'lighttiger2505/deoplete-vim-lsp'
