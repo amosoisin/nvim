@@ -40,3 +40,6 @@ hook_add = """
 
 [[plugins]]
 repo = 'lighttiger2505/deoplete-vim-lsp'
+
+[[plugins]]
+repo = 'tpope/vim-fugitive'
