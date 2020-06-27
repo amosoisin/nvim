@@ -4,13 +4,7 @@ wget https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage
 chmod +x nvim.appimage
 sudo mv nvim.appimage /usr/bin/nvim
 
-sudo npm install -g tern
 sudo npm install -g neovim
-
-
-TERN_PATH=/usr/local/lib/node_modules/tern
-sudo rm $TERN_PATH/.tern-project
-sudo ln -s tern-project $TERN_PATH/.tern-project
 
 pip3 install neovim pynvim
 pip3 install -U msgpack
