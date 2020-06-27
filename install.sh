@@ -6,7 +6,7 @@ sudo npm install -g neovim
 
 TERN_PATH=/usr/local/lib/node_modules/tern
 sudo rm $TERN_PATH/.tern-project
-sudo ln -s $HOME/dotfiles/tern-project $TERN_PATH/.tern-project
+sudo ln -s tern-project $TERN_PATH/.tern-project
 
 pip3 install neovim pynvim
 pip3 install -U msgpack
