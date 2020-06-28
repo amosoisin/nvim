@@ -1,11 +1,11 @@
-setlocal smarttab
-setlocal expandtab
+set smarttab
+set expandtab
 augroup fileTypeIndent
     autocmd!
-    autocmd BufNewFile,BufRead *.c setlocal noexpandtab
+    autocmd BufNewFile,BufRead *.c set noexpandtab
 augroup END
-setlocal tabstop=4
-setlocal shiftwidth=4
+set tabstop=4
+set shiftwidth=4
 
 set number
 set t_Co=256
