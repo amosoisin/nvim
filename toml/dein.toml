@@ -9,6 +9,9 @@ repo = 'tomasr/molokai'
 repo = 'gosukiwi/vim-atom-dark'
 
 [[plugins]]
+repo = 'sjl/badwolf'
+
+[[plugins]]
 repo = 'preservim/nerdtree'
 hook_add = '''
     nnoremap <C-e> :NERDTreeToggle<CR>
