@@ -12,6 +12,12 @@ repo = 'gosukiwi/vim-atom-dark'
 repo = 'sjl/badwolf'
 
 [[plugins]]
+repo = 'reireias/vim-cheatsheet'
+hook_add = '''
+    let g:cheatsheet#cheat_file = '$HOME/.config/nvim/cheetcheet.md'
+'''
+
+[[plugins]]
 repo = 'preservim/nerdtree'
 hook_add = '''
     nnoremap <C-e> :NERDTreeToggle<CR>
