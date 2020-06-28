@@ -3,6 +3,8 @@ set expandtab
 augroup fileTypeIndent
     autocmd!
     autocmd BufNewFile,BufRead *.c set noexpandtab
+    autocmd BufNewFile,BufRead *.h set noexpandtab
+    autocmd BufNewFile,BufRead Makefile set noexpandtab
 augroup END
 set tabstop=4
 set shiftwidth=4
