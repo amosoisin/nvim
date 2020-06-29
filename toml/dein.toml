@@ -69,7 +69,7 @@ hook_add = """
     let Tlist_Ctags_Cmd = "/usr/bin/ctags"
     let Tlist_Show_One_File = 1
     let Tlist_Exit_OnlyWindow = 1
-    nnoremap <C-a> :Tlist<CR><C-w>h<C-w>h<C-w>h
+    nnoremap <C-a> :Tlist<CR><C-w>x
 """
 
 [[plugins]]
