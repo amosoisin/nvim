@@ -1,4 +1,4 @@
-sudo apt -y install python3 python3-venv python3-pip clang libclang-dev llvm npm ctags
+sudo apt -y install python3 python3-venv python3-pip clang libclang-dev llvm npm ctags clang-tools
 
 wget https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage
 chmod +x nvim.appimage
