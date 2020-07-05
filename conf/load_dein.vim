@@ -15,7 +15,7 @@ if dein#load_state(s:dein_dir)
     let s:toml      = g:rc_dir . '/dein.toml'
     call dein#load_toml(s:toml,      {'lazy': 0})
 
-    let lazy_tomls = ['python', 'web', 'clang']
+    let lazy_tomls = ['python', 'web', 'clang', 'md']
     for lazy in lazy_tomls
         let s:lazy_toml = g:rc_dir . '/dein_' . lazy . '.toml'
         call dein#load_toml(s:lazy_toml, {'lazy': 1})

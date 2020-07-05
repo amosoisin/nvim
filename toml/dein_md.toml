@@ -1,0 +1,6 @@
+[[plugins]]
+repo = 'iamcco/markdown-preview.vim'
+on_ft = ['markdown']
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
