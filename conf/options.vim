@@ -1,10 +1,7 @@
 set smarttab
-set expandtab
 augroup fileTypeIndent
     autocmd!
-    autocmd BufNewFile,BufRead *.c set noexpandtab
-    autocmd BufNewFile,BufRead *.h set noexpandtab
-    autocmd BufNewFile,BufRead Makefile set noexpandtab
+    autocmd BufNewFile,BufRead *.py set expandtab
 augroup END
 set tabstop=4
 set shiftwidth=4
