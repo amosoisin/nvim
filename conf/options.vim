@@ -31,3 +31,16 @@ hi SpecialKey ctermbg=None ctermfg=59 guibg=NONE guifg=None
 "colorscheme atom-dark-256
 "colorscheme molokai
 colorscheme badwolf
+autocmd BufNewFile,BufRead *.htm set filetype=html
+
+autocmd VimEnter * nested if @% == '' && s:GetBufByte() == 0 | set filetype=sh | endif
+function! s:GetBufByte()
+	let byte = line2byte(line('$') + 1)
+	if byte == -1
+		return 0
+	else
+		return byte - 1
+	endif
+endfunction
+
+autocmd BufRead,BufNewFile * nested if @% !~ '\.' && getline(1) !~ '^#!.*' | set filetype=sh | endif
