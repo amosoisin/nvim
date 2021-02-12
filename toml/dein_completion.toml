@@ -14,7 +14,9 @@ repo = 'prabirshrestha/asyncomplete-lsp.vim'
 [[plugins]]
 repo = 'Shougo/deoplete.nvim'
 hook_add = """
-    let g:deoplete#enable_at_startup = 1
+	let g:deoplete#enable_at_startup = 1
+	let g:deoplete#max_list = 5
+	let g:deoplete#auto_complete_start_length = 1
 """
 
 [[plugins]]
