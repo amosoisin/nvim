@@ -30,3 +30,4 @@ p       paste
 <C-y>,  enabled emmet on this line
 
 ## visual
+Select and S"	Surround "
