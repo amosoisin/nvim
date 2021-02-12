@@ -1,7 +1,4 @@
-[[plugins]]
-repo = 'Shougo/dein.vim'
-merged = '0'
- 
+# colorscheme
 [[plugins]]
 repo = 'tomasr/molokai'
 
@@ -11,54 +8,46 @@ repo = 'gosukiwi/vim-atom-dark'
 [[plugins]]
 repo = 'sjl/badwolf'
 
+
+# cheetsheet
 [[plugins]]
 repo = 'reireias/vim-cheatsheet'
 hook_add = '''
     let g:cheatsheet#cheat_file = '$HOME/.config/nvim/cheetcheet.md'
 '''
 
+# filer
 [[plugins]]
 repo = 'preservim/nerdtree'
 hook_add = '''
     nnoremap <C-e> :NERDTreeToggle<CR>
 '''
 
+
+# Auto close 
 [[plugins]]
 repo = 'cohama/lexima.vim'
 
+
+# surround parentheses
 [[plugins]]
 repo = 'tpope/vim-surround'
 
-[[plugins]]
-repo = 'prabirshrestha/vim-lsp'
 
-[[plugins]]
-repo = 'mattn/vim-lsp-settings'
-
-[[plugins]]
-repo = 'prabirshrestha/asyncomplete.vim'
-
-[[plugins]]
-repo = 'prabirshrestha/asyncomplete-lsp.vim'
-
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = """
-    let g:deoplete#enable_at_startup = 1
-"""
-
-[[plugins]]
-repo = 'lighttiger2505/deoplete-vim-lsp'
-
+# Git Plugin
 [[plugins]]
 repo = 'tpope/vim-fugitive'
 
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
 
+
+# preview replacement
 [[plugins]]
 repo = 'markonm/traces.vim'
 
+
+# function list
 [[plugins]]
 repo = 'szw/vim-tags'
 
@@ -72,6 +61,8 @@ hook_add = """
     nnoremap <C-a> :Tlist<CR>
 """
 
+
+# reuse yank registor
 [[plugins]]
 repo = 'LeafCage/yankround.vim'
 hook_add = """

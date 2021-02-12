@@ -12,8 +12,11 @@ if dein#load_state(s:dein_dir)
     call dein#begin(s:dein_dir)
 
     let g:rc_dir    = expand('~/.config/nvim/toml')
-    let s:toml      = g:rc_dir . '/dein.toml'
-    call dein#load_toml(s:toml,      {'lazy': 0})
+	let tomls       = ['global', 'completion']
+	for toml_name in tomls
+        let s:toml = g:rc_dir . '/dein_' . toml_name . '.toml'
+    	call dein#load_toml(s:toml,      {'lazy': 0})
+	endfor
 
     let lazy_tomls = ['python', 'web', 'clang', 'md']
     for lazy in lazy_tomls
