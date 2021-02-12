@@ -1,9 +1,3 @@
-# base for completion
-[[plugins]]
-repo = 'Shougo/dein.vim'
-merged = '0'
- 
-
 # Language Server Protocol plugin
 [[plugins]]
 repo = 'prabirshrestha/vim-lsp'

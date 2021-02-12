@@ -1,3 +1,9 @@
+# plugin manager
+[[plugins]]
+repo = 'Shougo/dein.vim'
+merged = '0'
+
+
 # colorscheme
 [[plugins]]
 repo = 'tomasr/molokai'
