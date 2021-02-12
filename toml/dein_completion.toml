@@ -17,8 +17,8 @@ hook_add = """
 	let g:deoplete#enable_at_startup = 1
 	let g:deoplete#max_list = 5
 	let g:deoplete#auto_complete_start_length = 1
+	nnoremap <C-s>z :LspPeekDefinition<CR>
 """
 
 [[plugins]]
 repo = 'lighttiger2505/deoplete-vim-lsp'
-

@@ -26,7 +26,7 @@ hook_add = '''
 [[plugins]]
 repo = 'preservim/nerdtree'
 hook_add = '''
-    nnoremap <C-e> :NERDTreeToggle<CR>
+    nnoremap <C-s>e :NERDTreeToggle<CR>
 '''
 
 
@@ -67,7 +67,7 @@ hook_add = """
 	let Tlist_File_Fold_Auto_Close = 1
 	let Tlist_GainFocus_On_ToggleOpen = 1
 	let Tlist_Inc_Winwidth = 1
-    nnoremap <C-a> :TlistToggle<CR>
+    nnoremap <C-s>a :TlistToggle<CR>
 """
 
 

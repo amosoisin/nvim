@@ -14,11 +14,14 @@
 
 ## normal
 ### NERDTree
-<C-e>   Toggle NERDTree
+<C-s>e   Toggle NERDTree
 
 ### Tag List
-<C-a>   Toggle Taglist
+<C-s>a   Toggle Taglist
 u       Update Tag View
+
+### Lsp
+<C-s>z    :LspPeekDefinition
 
 ### yankround
 p       paste
